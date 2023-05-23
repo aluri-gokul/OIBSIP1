@@ -1,0 +1,220 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+    background-image: url(place2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    margin-top:10px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+  
+}
+.heading {
+  margin-top: -50px;
+  margin-left: 25px;
+  font-size: 75px;
+  font-family: "Lobster", cursive;
+}
+.card {
+  padding:18px;
+  margin-left: 105px;
+  width: 390px;
+  height: 444px;
+  background: rgba(256,256,256,0.4); 
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+p{
+  font-family: "Great Vibes", cursive;
+  font-size: 24px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.content{
+  margin-left:59%;
+  font-size:17px;
+}
+.navbar {
+  color: black;
+  padding: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color:black;
+}
+
+.navbar li {
+  margin-right: 15px;
+}
+
+.navbar a {
+  color:black;
+  text-decoration: none;
+  padding:15px;
+  border-radius: 10px;
+}
+
+.navbar a:hover {
+  background-color: aliceblue;
+}
+
+
+.hero {
+  background-color: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+/* Footer */
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  text-align: center;
+}
+
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.cssbuttons-io-button {
+  background: palevioletred;
+  color: black;
+  font-family: "Great Vibes", cursive;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #A370F0;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+  margin-left:30%;
+}
+
+.cssbuttons-io-button .icon {
+  background: lightcyan;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #A370F0;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: palevioletred; 
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}
+
+.social-icons {
+  list-style: none;
+display: flex;
+align-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.social-icons li {
+  margin: 0 15px; /* Increase the space between icons */
+}
+
+.social-icons a {
+  color: whitesmoke;
+  font-size: 15px; /* Increase the icon size */
+  transition: color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.sc a:hover {
+  color: #007bff; /* Change the color on hover */
+}
+
+.fo{
+  margin-left:45%;
+} 
+
+.fo a {
+  text-decoration: none;
+  padding:10px;
+  border-radius: 10px;
+}
+
+.fo a:hover {
+  text-decoration: none;
+  background-color: aliceblue;
+  color:black;
+}
